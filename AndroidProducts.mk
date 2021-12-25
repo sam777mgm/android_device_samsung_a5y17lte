@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a5y17lte.mk
+    $(LOCAL_DIR)/aosp_a5y17lte.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_a5y17lte-user \
+    aosp_a5y17lte-userdebug \
+    aosp_a5y17lte-eng
